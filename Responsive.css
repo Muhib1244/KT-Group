@@ -1,0 +1,254 @@
+@media (max-width:1200px) {
+    .responsive-soicial-icon{
+        font-size: .7rem !important;
+    }
+    .responsive-ankor{
+        font-size: .9rem;
+        justify-content: center;
+    }
+}
+
+@media (max-width:1024px) {
+    .responsive-soicial-icon{
+        font-size: .5rem !important;
+    }
+}
+
+@media (max-width:992px) {
+    .responsive-soicial-icon{
+        font-size: .5rem !important;
+    }
+    .responsive-button{
+        font-size: .8rem !important;
+    }
+    .responsive-footer form input{
+        width: 13rem !important;
+        font-size: .8rem !important;
+    }
+    .responsive-footer h2{
+        font-size: 1.3rem !important;
+    }
+    .responsive-form-992 input{
+        font-size: .8rem ;
+        height: .8rem;
+    }
+    .formStyle textarea{
+        font-size: .8rem !important;
+        height: 4rem !important;
+    }
+    .from-btn{
+        font-size: .8rem !important;
+        padding: .4rem .4rem !important;
+    }
+}
+
+@media (max-width:948px) {
+    .responsive-soicial-icon{
+        font-size: .4rem !important;
+        text-align: start;
+    }
+    .responsive-ankor{
+        font-size: .8rem;
+        justify-content: center;
+    }
+}
+@media (max-width:912px) {
+    .responsive-soicial-icon{
+        font-size: .4rem !important;
+        text-align: start;
+    }
+    .responsive-ankor{
+        font-size: .9rem;
+        justify-content: center;
+    }
+    
+}
+@media (max-width:880px) {
+    .responsive-soicial-icon{
+        font-size: .3rem !important;
+        text-align: start;
+    }
+    .responsive-ankor{
+        font-size: .8rem;
+        justify-content: center;
+    }
+}
+@media (max-width:844px) {
+    .responsive-soicial-icon{
+        font-size: .4rem !important;
+        text-align: center !important;
+    }
+    .responsive-ankor{
+        font-size: .7rem;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .responsive-logo img{
+        width: 15rem !important;
+        height: auto !important;
+    }
+    .responsive-ankor a{
+        font-size: .7rem !important;
+        justify-content: center;
+    }
+    .responsive-soicial-icon{
+        font-size: .4rem !important;
+        margin-bottom: 15px !important;
+    }
+    .responsive-menu-bar{
+    }
+    .responsive-banner{
+        width: auto;
+        height: 10rem;
+    }
+    .responsive-banner-down img{
+        width: 18rem !important;
+    }
+    .responsive-title h1, h2{
+        font-size: 1.2rem !important;
+    }
+    .responsive-title img{
+        width: 15rem !important;
+    }
+    .responsive-title p{
+        font-size: .7rem !important;
+        padding: 0 1rem;
+    }
+    .responsive-button{
+        font-size: .7rem !important;
+    }
+    .responsive-product img{
+        width: 10rem !important;
+        height: 9rem !important;
+    }
+
+    .responsive-workImage img{
+        width: 15rem;
+        margin-bottom: 3rem;
+    }
+    .workImage{
+        position: relative;
+    }
+    .image-2 {
+        position: absolute;
+        bottom: -5px !important;
+        right: 108px !important;
+        border-radius: 5%;
+        width: 10rem !important;
+    }
+    .responsive-ol-icon img{
+        width: 1.3rem !important;
+    }
+    .responsive-ol-icon li{
+        font-size: .7rem !important;
+    }
+    .responsive-ol-icon strong{
+        font-size: .8rem;
+    }
+    .hover-btn2{
+        position: absolute;
+        bottom: 0;
+        left: .9rem;
+        font-size: .5rem !important;
+    }
+
+    .responsive-customer img{
+        width: 4rem !important;
+    }
+    .responsive-customer p, h4{
+        font-size: .7rem !important;
+    }
+    .news-image img{
+        width: 15rem;
+        height: 10rem;
+        border-radius: 15px 15px 0 0;
+    }
+    .news-image p, a{
+        font-size: .7rem !important;
+    }
+    .responsive-footer h2{
+        font-size: 1.4rem;
+    }
+    .responsive-address address{
+        font-size: .8rem;
+    }
+    .formStyle input, textarea{
+        width: 12rem !important;
+        font-size: .7rem !important;
+    }
+
+    /* Our Product responsive */
+    .responsive-product-title span, h6{
+        font-size: .7rem !important;
+    }
+    .responsive-form{
+        width: 100%;
+    }
+    .responsive-form form{
+        width: 10rem !important;
+    } 
+    .responsiv-category-style h4{
+        font-size: 1rem !important;
+    }
+
+    /* Creers responsive */
+
+    .image-2-responsive {
+        position: absolute;
+        bottom: -5px !important;
+        right: 0 !important;
+        border-radius: 5%;
+        width: 10rem !important;
+    }
+    .table thead tr th{
+        font-size: .8rem !important;
+    }
+    .table tbody tr th, td{
+        font-size: .7rem !important;
+    }
+
+    /* Conact Responsive */
+    .responsive-map{
+        height: 15rem !important;
+    }
+    .responsive-address-box {
+        width: 14rem !important;
+        height: 12rem !important;
+    }
+    .responsive-address-box span a{
+        font-size: .8rem !important;
+    }
+    .responsive-address-box h4, p, a{
+        font-size: .9rem !important;
+    }
+    .responsive-button-2{
+        font-size: .7rem !important;
+        width: 60% !important;
+    }
+    .product-details-title h4, strong{
+        font-size: .9rem !important;
+    }
+    .product-details-title p, li{
+        font-size: .7rem !important;
+    }
+    .footer{
+        background: url(image/fotter-bg.jpg) no-repeat;
+        background-size: cover;
+        padding: 20 px 0;
+    }
+}
+@media (max-width:338px) {
+    .responsive-soicial-icon{
+        font-size: .4rem !important;
+        text-align: start;
+    }
+    .responsive-ankor a{
+        font-size: .7rem !important;
+        margin: 15px 0 !important;
+        justify-content: center !important;
+    }
+}
+
+

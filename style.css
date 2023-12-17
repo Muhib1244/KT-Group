@@ -1,0 +1,262 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.icon-hover:hover{
+    background-color: #b8d9a2 !important;
+    cursor: pointer;
+    transition: 300ms !important;
+
+}
+.hover-btn:hover{
+    background-color: #b8d9a2c0;
+    color: #222;
+    border: 1px solid #b8d9a2 !important;
+    transition: 300ms;
+}
+.hover-btn2{
+    position: absolute;
+    bottom: 0;
+    left: 3rem;
+}
+.hover-btn2:hover{
+    background-color: #198754a7;
+    color: #fff;
+    border: 1px solid #1987544e !important;
+    transition: 300ms;
+}
+.img-hover{
+    cursor: pointer !important;
+    transition: transform 500ms;
+    transform-origin: center center;
+}
+.img-hover:hover{
+    transform: scale(1.2);
+}
+
+/* manu style  */
+.mn-hvr{
+    transition: 700ms;
+}
+.mn-hvr:hover{
+    background-color: #0e663d;
+}
+
+/* Dropdown Menu Style */
+.drp-category{
+    position: relative;
+}
+.drp-category a i{
+    position: relative;
+    top: 2px;
+    left: 4px;
+}
+.drp-menu{
+    
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 12em;
+    background-color: #ffffff;
+    list-style: none;
+    visibility: hidden;
+    opacity: 0;
+    z-index: 1;
+    transform: scaleY(0);
+    transform-origin: top center;
+    transition: 500ms !important;
+}
+.drp-menu a{
+    display: inline-table;
+    text-decoration: none;
+    color: #000;
+    width: 100%;
+    padding:10px !important;
+    border-bottom: 1px solid #80808071;
+}
+.drp-menu a:hover{
+    color: #0e663d;
+}
+.drp-category:hover .drp-menu{
+    visibility: visible;
+    opacity: 1;
+    transform: scaleY(1);
+}
+
+/* ourService syle css */
+
+/* .ourService img{
+    box-shadow: 3px 3px 30px #222 !important;
+} */
+.ourServiceTitle ol li{
+    line-height: 40px !important;
+}
+
+.adminButton {
+    position: absolute;
+    top: 10px;
+    right: 0px;
+}
+
+/* Work Section img part Style  */
+
+.workImage{
+    position: relative;
+}
+.image-2 {
+    position: absolute;
+    bottom: -35px;
+    right: -35px;
+    border-radius: 5%;
+    width: 25rem;
+}
+
+/* Gallery section style */
+
+
+.news-image img{
+    width: 25rem;
+    height: 18rem;
+    border-radius: 15px 15px 0 0;
+}
+.angkor-hover{
+    text-decoration: none;
+    transition: 500ms !important;
+}
+.angkor-hover:hover{
+    color:  #0e663d !important;
+}
+
+/* Footer Section Style */
+.footer{
+    background: url(image/fotter-bg.jpg) no-repeat;
+    background-size: cover;
+    padding: 40px 0;
+}
+
+.address a{
+    text-decoration: none;
+    color: #222;
+    font-weight: 500;
+    transition: 400ms;
+}
+.address a:hover{
+    color: #0e663d;
+
+}
+.formStyle input ,textarea{
+    border: 1px solid #0e663d !important;
+}
+.formStyle input:focus{
+    box-shadow: 0px 0px 0px 3px #0e663d69;
+}
+.formStyle textarea:focus{
+    box-shadow: 0px 0px 0px 3px #0e663d5c;
+}
+
+
+/* About Css Style */
+.abouteTitle{
+    background: url(image/About-Us/Abou-Banner1.png) no-repeat center;
+    background-size: cover;
+    padding: 30px 0;
+}
+.chairmen img{
+    position: relative;
+    top: 12rem;
+    width: 25rem;
+    border-radius: 1rem;
+}
+
+/* Our Product Page Css Style */
+
+.ourProductTitle{
+    background: url(image/About-Us/Abou-Banner1.png) no-repeat center;
+    background-size: cover;
+    padding: 30px 0;
+}
+
+/* Aqua Products Page Css Style  */
+
+
+/* Offer Products Page Style */
+.offerTitle{
+    background: url(image/About-Us/Abou-Banner1.png) no-repeat center;
+    background-size: cover;
+    padding: 30px 0;
+}
+
+/* Gallery Page Style */
+
+.modalBackground{
+    background-color: #000000b1 !important;
+}
+.modal-content-Background{
+    background-color: #00000000 !important;
+}
+.modalButton{
+    background-color: #00000000;
+    border: none;
+    font-size: 1.5rem;
+    position: absolute;
+    top: -50px;
+    right: -65px;
+
+    transition: 300ms;
+}
+.modalButton:hover{
+    background-color: #ffffff2e !important;
+}
+
+.gallary-image img{
+    height: 13rem;
+    width: auto;
+    opacity: .7;
+    transition: 300ms;
+}
+
+.gallary-image img:hover{
+    opacity: 1;
+}
+
+/* Careers Page Style */
+
+.careersTitle{
+    background: url(image/About-Us/Abou-Banner1.png) no-repeat center;
+    background-size: cover;
+    padding: 30px 0;
+}
+.careers-image-2 {
+    position: absolute;
+    bottom: -127px;
+    right: 25px;
+    border-radius: 5%;
+    width: 18rem;
+}
+
+/* Contact Us Page Style */
+
+.contactTitle{
+    background: url(image/About-Us/Abou-Banner1.png) no-repeat center;
+    background-size: cover;
+    padding: 30px 0;
+}
+
+.card-hover:hover{
+    border-color: #b8d9a2;
+    transition: 700ms;
+}
+.card-hover:hover span a{
+    background-color: #b8d9a2 !important;
+    transition: 700ms !important;
+}
+
+.from-btn:hover{
+    background-color: #b8d9a2;
+    border-color: #b8d9a2;
+    transition: 700ms;
+}
+
+
+
